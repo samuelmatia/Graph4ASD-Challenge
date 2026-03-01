@@ -143,22 +143,13 @@ id,y_pred
 3,1
 ...
 ```
-Encrypt your `predictions.csv` using: ``` python  extra/encrypt.py predictions.csv ```. Then put  `predictions.csv.enc` and `metadata.json` in the **`submissions/`** folder.  
+Encrypt your `predictions.csv` using: ``` python  extra/encrypt.py predictions.csv ```. 
+
+Then put  `predictions.csv.enc` and `metadata.json` in the **`submissions/`** folder.  
 **Note:** ❗ Do NOT upload the raw CSV. You need to submit an **encrypted** version of your predictions file to keep privacy.
 
-### Step 4: Encrypt your submission
-From the project root, run the encryption script so it can find your CSV and the encryption key:
-
-```bash
-cd submissions
-python ../encryption/encrypt_submissions.py <filename>
-cd ..
-```
-
-This creates a `.enc` file next to each `.csv` in `submissions/` (e.g. `my_submission.csv.enc`). Only `.enc` files are tracked by git; your `.csv` stays local.
-
-### Step 5: Create a Pull Request
-Commit and push the new `.enc` file(s) to the repository (e.g. open a Pull Request or push to the main branch, as per the challenge rules). The automated pipeline will decrypt and score your submission to update the leaderboard.
+### Step 4: Create a Pull Request
+Commit and push the `predictions.csv.enc` and `metadata.json`  to the repository. Then, open  Pull Request or push to the main branch. The automated pipeline will decrypt and score your submission to update the leaderboard.
 
 ⚠️ Only **one submission per participant** is allowed.
 
