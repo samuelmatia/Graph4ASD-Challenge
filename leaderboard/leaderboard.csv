@@ -1,3 +1,4 @@
 username,timestamp_utc,team,run_id,type,model,macro_f1,accuracy,precision,recall
 Murad-Hossen,2026-03-07 17:31:39 UTC,murad_hossen,murad_hossen_2026-03-05,human,GCN,0.592666,0.594771,0.593023,0.653846
 ignatiusbalayo,2026-03-09 16:34:02 UTC,Ignatius B,run_001,human,GraphSAGE,0.421719,0.535948,0.524476,0.961538
+tasneem-mselim,2026-03-13 08:18:42 UTC,Tasneem Selim,run_1,human,GCN,0.435957,0.437908,0.439394,0.371795
