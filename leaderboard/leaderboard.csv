@@ -5,3 +5,4 @@ tasneem-mselim,2026-03-13 08:18:42 UTC,Tasneem Selim,run_1,human,GCN,0.435957,0.
 hadilaff,2026-03-20 15:03:40 UTC,hadil,run_4_threshold_0.5,human+llm,GIN,0.417978,0.470588,0.487603,0.75641
 gururgg,2026-03-24 09:42:52 UTC,gururgg,run_01,human,Graph Transformer,0.610115,0.614379,0.604396,0.705128
 faranbutt,2026-03-29 12:13:56 UTC,faranbutt,02,human,GCN,0.567723,0.568627,0.588235,0.512821
+bjayadikary,2026-03-30 04:15:30 UTC,bijay,1,human,GCN,0.573999,0.575163,0.578313,0.615385
